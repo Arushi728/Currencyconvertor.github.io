@@ -1,0 +1,88 @@
+
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+    background: url(images/currency.jpg);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+body{
+  height: calc(100vh - 28em);
+ padding:5px;
+  color: black;
+  font-family: 'Sofia', cursive;  
+  background-color: rgb(25,25,25);  
+    
+
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+    padding-top: 150px;
+}
+
+/* Animation */
+.anim-typewriter{
+    padding: 5px;
+  animation: typewriter 4s steps(25) 1s 1 normal both,
+             blinkTextCursor 25ms steps(25) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color:black;}
+  to{border-right-color: transparent;}
+}
+.text p{
+ margin: 20px;
+    text-align: center;
+}
+.form-group row{
+    text-align: center;
+}
+div.f{
+    text-align:center;
+    margin-top: 400px;
+  padding-top: 40px;
+    padding-left: 450px;
+  margin-right: 100px;
+  margin-left: 150px;
+  padding: -10px;
+  width:1250px;
+  margin: auto;
+  
+}
+
+#btn btn-info{
+    background-color: blueviolet;
+    color:black;
+}
+#form-control{
+    color: black;
+}
